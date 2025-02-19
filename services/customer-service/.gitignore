@@ -1,33 +1,76 @@
-HELP.md
+# Compiled class files
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+out/
 
-### VS Code ###
+# Maven / Gradle
+.mvn/
+!mvnw
+!mvnw.cmd
+**/mvnw
+**/mvnw.cmd
+.gradle/
+.gradle-cache/
+gradle-app.setting
+gradle.properties
+gradlew
+gradlew.bat
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Database
+*.h2.db
+*.mv.db
+*.sqlite
+*.db-journal
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# Environment variables
+.env
+*.env
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
 .vscode/
+
+# STS (Spring Tool Suite)
+.springBeans/
+
+# Test reports
+test-output/
+surefire-reports/
+
+# Node-related (if frontend exists)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+
+# Misc
+*.bak
+*.tmp
+*.cache
+*.pid
+*.seed
+*.log.*
+*.properties~
