@@ -1,8 +1,9 @@
 services:
   postgresql:
     container_name: ms_pg_sql
-    image: postgres
+    image: postgres:latest
     environment:
+      POSTGRES_DB: postgre_db
       POSTGRES_USER: sam
       POSTGRES_PASSWORD: sam
       PGDATA: /data/postgres
