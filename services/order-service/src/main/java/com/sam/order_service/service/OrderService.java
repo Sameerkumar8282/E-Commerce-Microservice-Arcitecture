@@ -1,6 +1,7 @@
 package com.sam.order_service.service;
 
 import com.sam.order_service.client.CustomerClient;
+import com.sam.order_service.client.PaymentClient;
 import com.sam.order_service.client.ProductClient;
 import com.sam.order_service.dto.*;
 import com.sam.order_service.exception.BusinessException;
